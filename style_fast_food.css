@@ -1,0 +1,72 @@
+#fastfood{
+    margin-top: 40vh;
+    width: 100%;
+
+}
+
+#titulo_f, .prod_t{
+    color: rgb(241, 231, 167);
+    font-size: 4em;
+    text-decoration: overline;
+    margin: 50px;
+    margin-left: 0;
+    margin-bottom: 200px;
+}
+
+.divs_pro{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.674);
+    border-radius: 10px;
+    align-content: center;
+
+    width: 100%;
+    min-width: 160px;
+    height: 30px;
+    
+    overflow-x: auto;
+    text-align: center;
+
+}
+
+
+#div_preco{
+    background-color: rgba(180, 41, 41, 0);
+    border: solid 1px brown;
+}
+
+#div_qua{
+    background-color: rgb(186, 47, 47);
+}
+
+#meio_fast,#meio_bebida, .prod_d{
+    display: inline-block;
+    margin-bottom: 30vh;
+    position: relative;
+    left: 50%;
+
+    transform: translateX(-50%);
+    
+    
+}
+
+del{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

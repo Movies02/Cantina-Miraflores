@@ -1,0 +1,116 @@
+@media (min-width:682px){
+ 
+    #cabeca{
+        height: 100%;
+        width: 100%;
+    
+        /*background*/
+        background-image: url("fundo-paint.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /*background*/
+    }
+    #informação{
+        margin-bottom: 90vh;
+    }
+
+
+    /*Lista dos temas*/
+
+    /*-----Lista dos temas do cabeçalho*/
+
+    #temasL{
+        z-index: 1000;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    /*---------lista*/
+    .temasL_{
+        display: inline;
+        margin-left: 2%;
+        padding: 10px;
+        border-radius: 10px;
+        
+
+        transition: background-color 1s ease;
+    }
+
+    .temasL_:hover{
+        background-color: #ff0022bf;
+        transition: background-color 1s ease;
+    }
+    /*---------lista*/
+
+    #hamburger, #hamburger_{
+        display: none;
+    }
+    #titulo{
+        z-index: 1000;
+        background-color: #82071D;
+    }
+
+    /*Imagens trocas*/
+
+    #troca_img{
+        width: 100%;
+        max-width: 800px;
+    }
+    #texto{
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-top: 100px;
+    }
+    .cantinas{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .cantinas_div{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #esquerda, #direita{
+        width: 25%;
+        height: 30%;
+        position: relative;
+        bottom: 10px;
+        margin-top: 100px;
+        filter: blur(2px);
+    }
+
+
+    #meio{
+        width: 40%;
+        height: 50%;
+    }
+    /*mexendo com a barra de rolagem*/
+    body::-webkit-scrollbar{
+        background-color: transparent;
+        width: 10px;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: #620214;
+        border-radius: 10px;
+    }
+    #valor{
+        margin-bottom: 60px;
+    }
+    /*mexendo com a barra de rolagem*/
+
+ 
+
+
+    /*Imagens trocas*/
+}
+@media (max-width:1132px){
+    #troca_img{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

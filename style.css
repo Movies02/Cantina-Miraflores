@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(47, 46, 46);
+    font-family: 'Kanit';
+
+}
+
+
+ul{
+    z-index: 1000;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #faae6759,#fd9b7484,#fdad74aa);
+    color: rgb(47, 46, 46);
+    overflow-x: hidden;
+}
+body{
+    cursor: url("cursor_2.png"), auto;
+}
+
+
+#hamburger{
+    width: 30%;
+    max-width: 50px;
+    height: 10%;
+    max-height: 50px;
+
+    padding: 2px;
+}
+#menu_fecha{
+    height: 100%;
+    width: 100%;
+}
+
+#hamburger_{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #620214a3;
+}
+
+#hamburger_ img{
+    width: 100%;
+    height: 100%;
+}
+
+#titulo{
+    position: fixed;
+    width: 100%;
+}
+
+
+#informação{
+    margin-top: 10%;
+
+    width: 100%;
+    height: 30%;
+    min-width: 200px;
+    margin-bottom: 100px;
+}
+
+li{
+    color:white;
+}
+
+#texto{
+    display: inline-block;
+    position: relative;
+    bottom: 5%;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+#troca_img{
+    display: inline-block;
+}
+
+#img_burger{
+    width: 15%;
+    min-width: 100px;
+    margin-left: 30px;
+}
+
+#informação{
+    margin-bottom: 500px;
+}
+
+.prod_t{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media (max-width:680px){
+    #cabeca{
+        height: 100%;
+        width: 100%;
+
+        /*background*/
+        background-image: url("fundo_mobile.jpg");
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /*background*/
+    }
+    #central{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*Lista dos temas do cabeçalho*/
+    #temas{
+        display: none;
+        z-index: 1000;
+        
+
+        height: 100vh;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.679);
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+
+        backdrop-filter: blur(2px);
+    }
+
+    #temasL{
+        position: relative;
+        z-index: 1000;
+        top: 10%;
+
+    }
+
+    /*---------lista*/
+    .temasL_{
+        z-index: 10000;
+        margin-bottom: 10px;
+        margin-left: 4px;
+        padding: 9px;
+        border-radius: 9px;
+    }
+
+    .temasL_:hover{
+        background-color: #ff002f;
+    }
+    /*---------lista*/
+
+    /*Lista dos temas do cabeçalho*/
+
+    .cantinas{
+        display: none;
+    }
+
+
+    #cantina1{
+        display: inline-block;
+        width: 95%;
+        max-width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        max-height: 220px;
+        margin-left: 0;
+        box-shadow: 0 0 20px rgba(157, 2, 2, 0.278);
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    .cantinas{
+        width: 100%;
+        height: 100%;
+    }
+
+    #img_burger{
+        width: 30%;
+    }
+    #texto{
+        position: relative;
+        top: 20px;
+        width: 90%;
+    }
+    #titulo{
+        z-index: 1000;
+    }
+    #produtos_f,.produtos{
+        display: inline-block;
+        width: 90%;
+    }
+    #valor{
+        width: 10VW;
+    }
+    #img_burger{
+        display: inline;
+        width: 60px;
+        max-width: 2%;
+        height: 120px;
+        margin-right: 5%;
+        margin-top: 20px;
+        float: right;
+
+        position: relative;
+        bottom: 0.01vh;
+    }
+    #troca_img{
+        display: block;
+    }
+    #valor{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .prod_d{
+        text-align: center;
+        margin-right: 100px;
+    }
+
+
+    /*mexendo com a barra de rolagem*/
+
+
+
+}
+
+
